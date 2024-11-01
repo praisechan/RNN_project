@@ -1,0 +1,136 @@
+0 
+45
++delay_mode_zero
++incdir+/tool/Program/synopsys/syn_vS-2021.06-SP5-2/dw/dw01/src_ver
++itf+/tool/Program/synopsys/vcs_vR-2020.12-SP1/linux64/lib/vcsdp_lite.tab
++libext+.v+
++vcsd1
++vpi
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/tool/Program/synopsys/vcs_vR-2020.12-SP1/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -rdynamic
+-Mobjects= /tool/Program/synopsys/vcs_vR-2020.12-SP1/linux64/lib/libvirsim.so /tool/Program/synopsys/vcs_vR-2020.12-SP1/linux64/lib/liberrorinf.so /tool/Program/synopsys/vcs_vR-2020.12-SP1/linux64/lib/libsnpsmalloc.so /tool/Program/synopsys/vcs_vR-2020.12-SP1/linux64/lib/libvfs.so
+-Mout=simv
+-Msaverestoreobj=/tool/Program/synopsys/vcs_vR-2020.12-SP1/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=/tool/Program/synopsys/verdi_vR-2020.12-SP1/share/PLI/VCS/LINUX64/pli.a -ldl
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/tool/Program/synopsys/vcs_vR-2020.12-SP1/include
+-Mxllcflags=
+-P
+-V
+-Xufe=2steps
+-debug_access+all
+-debug_region+cell
+-f ./script/run_TOP.f
+-fsdb
+-full64
+-gen_obj
+-kdb
+-l
+-l
+-picarchive
+-sverilog
+-timescale=1ns/1ps
+-y
+/tool/Program/synopsys/vcs_vR-2020.12-SP1/linux64/bin/vcs1
+logs/compile.log.0411_10:30:58
+gate_sim.log
+/tool/Program/synopsys/verdi_vR-2020.12-SP1/share/PLI/VCS/LINUX64/verdi.tab
+/tool/Program/synopsys/syn_vS-2021.06-SP5-2/dw/sim_ver
+./script/run_TOP.f
+72
+_CE_M=
+_CE_CONDA=
+ZSH=/home/juchan.lee/.oh-my-zsh
+XRDP_SOCKET_PATH=/run/xrdp
+XRDP_SESSION=1
+XRDP_PULSE_SOURCE_SOCKET=xrdp_chansrv_audio_in_socket_11
+XRDP_PULSE_SINK_SOCKET=xrdp_chansrv_audio_out_socket_11
+XDG_SESSION_ID=c13
+XDG_RUNTIME_DIR=/run/user/1134
+XDG_DATA_DIRS=/home/juchan.lee/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+XCELIUM_HOME=/tool/Program/cadence/XCELIUM1903
+VTE_VERSION=5204
+VMR_MODE_FLAG=64
+VERDI_HOME=/tool/Program/synopsys/verdi_vR-2020.12-SP1
+VC_HOME=/tool/Program/synopsys/vcs_vR-2020.12-SP1
+VCS_MX_HOME_INTERNAL=1
+VCS_MODE_FLAG=64
+VCS_LOG_FILE=gate_sim.log
+VCS_HOME=/tool/Program/synopsys/vcs_vR-2020.12-SP1
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH=linux64
+UNAME=/bin/uname
+TOOL_HOME=/tool/Program/synopsys/vcs_vR-2020.12-SP1/linux64
+SYNOPSYS_LC_ROOT=/tool/Program/synopsys/lc_vM-2016.12-SP3-1
+SSH_AUTH_SOCK=/tmp/ssh-bvhqBT28U1lP/agent.126845
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+SSH_AGENT_PID=127022
+SNPS_VERDI_INTERNAL_LP_XML_NEW_FLOW=1
+SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/126845,unix/unix:/tmp/.ICE-unix/126845
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+SALT_LICENSE_SERVER=1717@143.248.230.188:1717@143.248.230.169:1717@143.248.230.189
+QS_PATH=/tool/Program/mentor/QuestaSim-2020.3_2/linux_x86_64
+PULSE_SCRIPT=/etc/xrdp/pulse/default.pa
+PTS_HOME=/tool/Program/synopsys/pts_vQ-2019.12-SP4
+PPW_HOME=/tool/Program/synopsys/ppower_vS-2021.06-SP5
+OVA_UUM=0
+OA_HOME=/tool/Program/cadence/IC618/oa_v22.60.054
+MW_HOME=/tool/Program/synopsys/mw_vL-2016.03-SP3
+MODELTECH_PATH=/tool/Program/mentor/QuestaSim-2020.3_2/linux_x86_64/share/modeltech/linux_x86_64
+MGLS_LICENSE_FILE=1717@143.248.230.188:1717@143.248.230.169:1717@143.248.230.189
+MFLAGS=
+MAKELEVEL=1
+MAKEFLAGS=
+LSCOLORS=Gxfxcxdxbxegedabagacad
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LESS=-R
+LC_CTYPE=en_US.UTF-8
+LC_ALL=C
+IMSETTINGS_MODULE=none
+IMSETTINGS_INTEGRATE_DESKTOP=yes
+ICC_HOME=/tool/Program/synopsys/ic_compiler_vJ-2014.09-SP2
+ICC2_HOME=/tool/Program/synopsys/icc2_vT-2022.03-SP3
+HSP_HOME=/tool/Program/synopsys/hspice/N-2017.12/hspice
+HISTCONTROL=ignoredups
+GSETTINGS_SCHEMA_DIR_CONDA_BACKUP=
+GSETTINGS_SCHEMA_DIR=/home/juchan.lee/anaconda3/share/glib-2.0/schemas
+GPG_AGENT_INFO=/home/juchan.lee/.gnupg/S.gpg-agent:127033:1
+DCC_HOME=/tool/Program/synopsys/syn_vS-2021.06-SP5-2
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-wGpgjt0qTK,guid=0013869d2cdfb6718178443a65c45d92
+CONDA_SHLVL=1
+CONDA_PYTHON_EXE=/home/juchan.lee/anaconda3/bin/python
+CONDA_PROMPT_MODIFIER=(base) 
+CONDA_PREFIX=/home/juchan.lee/anaconda3
+CONDA_EXE=/home/juchan.lee/anaconda3/bin/conda
+CONDA_DEFAULT_ENV=base
+COLORTERM=truecolor
+CDS_Netlisting_Mode=Analog
+CDS_LOAD_ENV=addCWD
+CDS_LIC_FILE=5280@veritas.snu.ac.kr:5280@143.248.230.188:5280@143.248.230.169:5280@143.248.230.189
+CDS_HOME618=/tool/Program/cadence/IC618
+0
+7
+1644203835 /tool/PDK/samsung/LN28LPP_202203/PRIMITIVES/RVT/ln28lpp_sc_9t_base_rvt_c130_V1.00d/FE-Common/MODEL/sc9_cmos28lpp_base_rvt_neg.v
+1712677635 ../../syn_topo_500/results/TOP.mapped.v
+1712799048 ../../tb/tb_TOP_pre.sv
+1644203835 /tool/PDK/samsung/LN28LPP_202203/PRIMITIVES/RVT/ln28lpp_sc_9t_base_rvt_c130_V1.00d/FE-Common/MODEL/sc9_cmos28lpp_base_rvt_neg.v
+1712798285 ./script/run_TOP.f
+1614702492 /tool/Program/synopsys/verdi_vR-2020.12-SP1/share/PLI/VCS/LINUX64/verdi.tab
+1614744659 /tool/Program/synopsys/vcs_vR-2020.12-SP1/linux64/lib/vcsdp_lite.tab
+4
+1614746267 /tool/Program/synopsys/vcs_vR-2020.12-SP1/linux64/lib/libvirsim.so
+1614745576 /tool/Program/synopsys/vcs_vR-2020.12-SP1/linux64/lib/liberrorinf.so
+1614745306 /tool/Program/synopsys/vcs_vR-2020.12-SP1/linux64/lib/libsnpsmalloc.so
+1614745567 /tool/Program/synopsys/vcs_vR-2020.12-SP1/linux64/lib/libvfs.so
+1712799069 simv.daidir
+-1 partitionlib

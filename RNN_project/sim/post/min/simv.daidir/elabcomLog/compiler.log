@@ -1,0 +1,21 @@
+*design* DebussyLib (btIdent Verdi_R-2020.12-SP1)
+Command arguments:  -lib  simv.daidir/work  -saveLevel  -elab  simv.daidir/kdb  -simflow  -simdir  simv.daidir/kdb_libs  -topfile  simv.daidir/.elabcomTopFile  -pkgfile  simv.daidir/.elabcomPkgFile  -ssz  -ssv  -ssy  -Lf  work  +disable_message+C00380+C00381  +disable_message+C00388+C00389  -SNPS_ELABCOM  -saveElab 
+
+*Warning* Failed to find the specified instance parameter PLANE_ROW in the master adder_tree
+"../../../tb/tb_adder_tree.sv", 42: 
+
+*Warning* Failed to find the specified instance parameter PRECISION in the master adder_tree
+"../../../tb/tb_adder_tree.sv", 42: 
+
+*Warning* Failed to find the specified instance parameter TREE_ONE in the master adder_tree
+"../../../tb/tb_adder_tree.sv", 42: 
+
+*Warning* Failed to find the specified instance parameter TREE_TWO in the master adder_tree
+"../../../tb/tb_adder_tree.sv", 42: 
+
+*Warning* Failed to find the specified instance parameter TREE_THREE in the master adder_tree
+"../../../tb/tb_adder_tree.sv", 42: 
+
+*Warning* Failed to find the specified instance parameter TREE_FOUR in the master adder_tree
+"../../../tb/tb_adder_tree.sv", 42: 
+Total	0 error(s),   6 warning(s)

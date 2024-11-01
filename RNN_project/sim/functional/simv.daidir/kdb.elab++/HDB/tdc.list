@@ -1,0 +1,4 @@
+../../RTL/TOP/NEURON.sv
+../../RTL/TOP/RECBUF.sv
+../../RTL/TOP/RNN.sv
+../../tb/tb_TOP.sv

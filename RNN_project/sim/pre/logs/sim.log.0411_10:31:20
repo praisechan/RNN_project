@@ -1,0 +1,39 @@
+Command: /home/juchan.lee/softmax_v5/sim/pre/./simv -reportstats -l ./logs/sim.log.0411_10:31:20
+Chronologic VCS simulator copyright 1991-2020
+Contains Synopsys proprietary information.
+Compiler version R-2020.12-SP1_Full64; Runtime version R-2020.12-SP1_Full64;  Apr 11 10:31 2024
+*Verdi* Loading libsscore_vcs202012.so
+FSDB Dumper for VCS, Release Verdi_R-2020.12-SP1, Linux x86_64/64bit, 03/02/2021
+(C) 1996 - 2021 by Synopsys, Inc.
+*Verdi* : Create FSDB file './reports/tb_TOP.fsdb'
+*Verdi* : Begin traversing the scopes, layer (0).
+*Verdi* : Enable +all, +parameter and +functions dumping.
+*Verdi* : End of traversing.
+     476ns false ref_val : 0.020508,  eval_val : 0.020386
+     916ns false ref_val : 0.000000,  eval_val : 0.000185
+    1356ns false ref_val : 0.000110,  eval_val : 0.000206
+    1796ns false ref_val : 0.011292,  eval_val : 0.013977
+    2236ns true ref_val : 0.000000,  eval_val : 0.000000
+    2676ns true ref_val : 0.000000,  eval_val : 0.000000
+    3116ns true ref_val : 0.000000,  eval_val : 0.000000
+    3556ns true ref_val : 0.000000,  eval_val : 0.000000
+*Verdi* : Close all FSDB Files at 3,566,000 ps.
+$finish called from file "../../tb/tb_TOP_pre.sv", line 95.
+$finish at simulation time 3566ns
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 3566000 ps
+
+Simulation Performance Summary
+==============================
+Simulation started at :  Thu Apr 11 10:31:20 2024
+Elapsed Time          :  3 sec
+CPU Time              :  1.9 sec
+Virtual memory size   :  447.8 MB
+Resident set size     :  172.3 MB
+Shared memory size    :  2.5 MB
+Private memory size   :  169.8 MB
+Major page faults     :  0
+Machine name          :  ferrari
+==============================
+
+Thu Apr 11 10:31:22 2024

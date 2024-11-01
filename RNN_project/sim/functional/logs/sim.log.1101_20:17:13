@@ -1,0 +1,31 @@
+Command: /home/juchan.lee/RNN_project/sim/functional/./simv -reportstats -l ./logs/sim.log.1101_20:17:13
+Chronologic VCS simulator copyright 1991-2020
+Contains Synopsys proprietary information.
+Compiler version R-2020.12-SP1_Full64; Runtime version R-2020.12-SP1_Full64;  Nov  1 20:17 2024
+*Verdi* Loading libsscore_vcs202012.so
+FSDB Dumper for VCS, Release Verdi_R-2020.12-SP1, Linux x86_64/64bit, 03/02/2021
+(C) 1996 - 2021 by Synopsys, Inc.
+*Verdi* : Create FSDB file './reports/tb_TOP.fsdb'
+*Verdi* : Begin traversing the scopes, layer (0).
+*Verdi* : Enable +all, +parameter and +functions dumping.
+*Verdi* : End of traversing.
+*Verdi* : Close all FSDB Files at 5,486,000 ps.
+$finish called from file "../../tb/tb_TOP.sv", line 117.
+$finish at simulation time 5486ns
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 5486000 ps
+
+Simulation Performance Summary
+==============================
+Simulation started at :  Fri Nov  1 20:17:13 2024
+Elapsed Time          :  1 sec
+CPU Time              :  0.3 sec
+Virtual memory size   :  319.0 MB
+Resident set size     :  156.6 MB
+Shared memory size    :  2.0 MB
+Private memory size   :  154.6 MB
+Major page faults     :  0
+Machine name          :  ferrari
+==============================
+
+Fri Nov  1 20:17:13 2024

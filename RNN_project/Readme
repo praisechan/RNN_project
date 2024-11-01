@@ -1,0 +1,11 @@
+syn_topo.run4 -> 100MHz
+pnr.run9_en - > 100MHz with digital selection
+
+syn_topo.run5 -> 250MHz
+pnr.run10_en -> 250Mhz
+
+syn_topo.run6 -> 100MHz, with optimization synthesis
+pnr.run11_en -> 100MHz, similar result
+
+syn_topo.run7 -> 100MHz, without selection
+pnr.run12 -> 100MHz

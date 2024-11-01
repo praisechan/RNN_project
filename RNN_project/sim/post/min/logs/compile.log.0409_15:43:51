@@ -1,0 +1,118 @@
+
+Warning-[UNKWN_OPTVSIM] Unknown option passed
+  Ignoring unknown option '-adopt_wildcard' passed to 'vcs' and continuing 
+  compilation.
+
+Command: vcs -V -lca -kdb -sverilog -full64 -debug_access+all -debug_region+cell \
+-l logs/compile.log.0409_15:43:51 -timescale=1ns/1ps +incdir+ -y  /tool/Program/synopsys/syn_vS-2021.06-SP5-2/dw/sim_ver \
++libext+.v+ -adopt_wildcard -sdfretain -negdelay +sdfverbose +neg_tchk +maxdelays \
++define+sdf_post_bst -f ./script/run.f
+/tool/Program/synopsys/vcs_vR-2020.12-SP1/linux64/bin/vcs1 -Mcc=gcc -Mcplusplus=g++ \
+-Masflags= -Mcfl= -pipe -fPIC -O -I/tool/Program/synopsys/vcs_vR-2020.12-SP1/include \
+-Mxllcflags= -Mxcflags= -pipe -fPIC -I/tool/Program/synopsys/vcs_vR-2020.12-SP1/include \
+-Mldflags= -rdynamic  -Mout=simv -Mamsrun="" -Mvcsaceobjs="" -Mobjects=" /tool/Program/synopsys/vcs_vR-2020.12-SP1/linux64/lib/libvirsim.so \
+/tool/Program/synopsys/vcs_vR-2020.12-SP1/linux64/lib/liberrorinf.so /tool/Program/synopsys/vcs_vR-2020.12-SP1/linux64/lib/libsnpsmalloc.so \
+/tool/Program/synopsys/vcs_vR-2020.12-SP1/linux64/lib/libvfs.so " -Mexternalobj= \
+-Msaverestoreobj=/tool/Program/synopsys/vcs_vR-2020.12-SP1/linux64/lib/vcs_save_restore_new.o \
+-Mcrt0= -Mcrtn="" -Mcsrc="" -Msyslibs=/tool/Program/synopsys/verdi_vR-2020.12-SP1/share/PLI/VCS/LINUX64/pli.a \
+-ldl  -l logs/compile.log.0409_15:43:51 -V -lca -kdb -Xufe=2steps -full64 -debug_access+all \
++vpi +vcsd1 +itf+/tool/Program/synopsys/vcs_vR-2020.12-SP1/linux64/lib/vcsdp_lite.tab \
+-debug_region+cell -timescale=1ns/1ps +libext+.v+ -sdfretain -negdelay +sdfverbose \
++neg_tchk +maxdelays +define+sdf_post_bst -picarchive -P /tool/Program/synopsys/verdi_vR-2020.12-SP1/share/PLI/VCS/LINUX64/verdi.tab \
+-fsdb -sverilog -gen_obj +incdir+ -y /tool/Program/synopsys/syn_vS-2021.06-SP5-2/dw/sim_ver \
+-f ./script/run.f  
+                         Chronologic VCS (TM)
+       Version R-2020.12-SP1_Full64 -- Sun Apr  9 15:43:52 2023
+
+                    Copyright (c) 1991 - 2021 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+
+Warning-[LCA_FEATURES_ENABLED] Usage warning
+  LCA features enabled by '-lca' argument on the command line.  For more 
+  information regarding list of LCA features please refer to Chapter "LCA 
+  features" in the VCS Release Notes
+
+
+################# <-file/-f contents> ########################
+-f ./script/run.f
+        -v
+        /tool/PDK/samsung/LN28LPP_202203/PRIMITIVES/RVT/ln28lpp_sc_9t_base_rvt_c130_V1.00d/FE-Common/MODEL/sc9_cmos28lpp_base_rvt_neg.v
+        -v
+        /tool/PDK/samsung/LN28LPP_202203/IO/GPIO/ln28lpp_gpio_1p8v_V1.00bh/FE-Common/MODEL/io_gppr_cmos28lpp_t18.v
+        -v
+        /tool/PDK/samsung/LN28LPP_202203/IO/Power_ESD/ln28lpp_power_1p8v_2k_beta_V1.12/FE-Common/MODEL/pwr_gppr_cmos28lpp_t18.v
+        ../../../pnr/outputs_icc2/write_data0.v.gz
+        ../../../tb/tb_adder_tree.sv
+
+################# <-file/-f ends> ########################
+
+Parsing design file '../../../pnr/outputs_icc2/write_data0.v.gz'
+Parsing design file '../../../tb/tb_adder_tree.sv'
+Parsing library file '/tool/PDK/samsung/LN28LPP_202203/PRIMITIVES/RVT/ln28lpp_sc_9t_base_rvt_c130_V1.00d/FE-Common/MODEL/sc9_cmos28lpp_base_rvt_neg.v'
+Top Level Modules:
+       tb_adder_tree
+
+Warning-[AOUP] Attempt to override undefined parameter
+../../../tb/tb_adder_tree.sv, 42
+  Attempting to override undefined parameter "PLANE_ROW", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../../../tb/tb_adder_tree.sv, 42
+  Attempting to override undefined parameter "PRECISION", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../../../tb/tb_adder_tree.sv, 42
+  Attempting to override undefined parameter "TREE_ONE", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../../../tb/tb_adder_tree.sv, 42
+  Attempting to override undefined parameter "TREE_TWO", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../../../tb/tb_adder_tree.sv, 42
+  Attempting to override undefined parameter "TREE_THREE", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../../../tb/tb_adder_tree.sv, 42
+  Attempting to override undefined parameter "TREE_FOUR", will ignore it.
+
+TimeScale is 1 ns / 1 ps
+Starting vcs inline pass...
+
+8 modules and 1 UDP read.
+recompiling module tb_adder_tree
+recompiling module ADDF_X1M_A9TR
+recompiling module AND2_X0P5B_A9TR
+recompiling module CMPR42_X1M_A9TR
+recompiling module DFFQ_X0P5M_A9TR
+recompiling module INV_X0P5B_A9TR
+recompiling module NOR2B_X0P5M_A9TR
+recompiling module OA1B2_X0P5M_A9TR
+All of 8 modules done
+( cd csrc ; make -f Makefile SNPS_VCS_TMPDIR=/tmp/vcs_20230409064351_36995 product \
+)
+make[1]: Entering directory `/home/jehun.lee/NIKE/adder/sim/post/min/csrc'
+rm -f _cuarc*.so _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
+if [ -x ../simv ]; then chmod a-x ../simv; fi
+g++  -o ../simv      -rdynamic  -Wl,-rpath='$ORIGIN'/simv.daidir -Wl,-rpath=./simv.daidir \
+-Wl,-rpath=/tool/Program/synopsys/vcs_vR-2020.12-SP1/linux64/lib -L/tool/Program/synopsys/vcs_vR-2020.12-SP1/linux64/lib \
+-Wl,-rpath-link=./  /usr/lib64/libnuma.so.1   objs/amcQw_d.o   _37701_archive_1.so \
+objs/udps/exIG1.o  SIM_l.o      rmapats_mop.o rmapats.o rmar.o rmar_nd.o  rmar_llvm_0_1.o \
+rmar_llvm_0_0.o           -lvirsim -lerrorinf -lsnpsmalloc -lvfs    -lvcsnew -lsimprofile \
+-luclinative /tool/Program/synopsys/vcs_vR-2020.12-SP1/linux64/lib/vcs_tls.o   -Wl,-whole-archive \
+-lvcsucli    -Wl,-no-whole-archive        _vcs_pli_stub_.o   /tool/Program/synopsys/vcs_vR-2020.12-SP1/linux64/lib/vcs_save_restore_new.o \
+/tool/Program/synopsys/verdi_vR-2020.12-SP1/share/PLI/VCS/LINUX64/pli.a -ldl  -lc \
+-lm -lpthread -ldl 
+../simv up to date
+make[1]: Leaving directory `/home/jehun.lee/NIKE/adder/sim/post/min/csrc'
+CPU time: .725 seconds to compile + .256 seconds to elab + .221 seconds to link
+Verdi KDB elaboration done and the database successfully generated: 0 error(s), 6 warning(s)

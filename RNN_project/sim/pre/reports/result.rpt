@@ -1,0 +1,8 @@
+     476ns false ref_val : 0.020508,  eval_val : 0.020386
+     916ns false ref_val : 0.000000,  eval_val : 0.000185
+    1356ns false ref_val : 0.000110,  eval_val : 0.000206
+    1796ns false ref_val : 0.011292,  eval_val : 0.013977
+    2236ns true ref_val : 0.000000,  eval_val : 0.000000
+    2676ns true ref_val : 0.000000,  eval_val : 0.000000
+    3116ns true ref_val : 0.000000,  eval_val : 0.000000
+    3556ns true ref_val : 0.000000,  eval_val : 0.000000

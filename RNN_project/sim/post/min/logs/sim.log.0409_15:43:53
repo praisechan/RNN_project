@@ -1,0 +1,31 @@
+Command: /home/jehun.lee/NIKE/adder/sim/post/min/./simv -reportstats -l ./logs/sim.log.0409_15:43:53
+Chronologic VCS simulator copyright 1991-2020
+Contains Synopsys proprietary information.
+Compiler version R-2020.12-SP1_Full64; Runtime version R-2020.12-SP1_Full64;  Apr  9 15:43 2023
+*Verdi* Loading libsscore_vcs202012.so
+FSDB Dumper for VCS, Release Verdi_R-2020.12-SP1, Linux x86_64/64bit, 03/02/2021
+(C) 1996 - 2021 by Synopsys, Inc.
+*Verdi* : Create FSDB file './reports/tb_adder_tree.fsdb'
+*Verdi* : Begin traversing the scopes, layer (0).
+*Verdi* : Enable +all, +parameter and +functions dumping.
+*Verdi* : End of traversing.
+*Verdi* : Close all FSDB Files at 10,266,000 ps.
+$finish called from file "../../../tb/tb_adder_tree.sv", line 85.
+$finish at simulation time 10266ns
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 10266000 ps
+
+Simulation Performance Summary
+==============================
+Simulation started at :  Sun Apr  9 15:43:53 2023
+Elapsed Time          :  2 sec
+CPU Time              :  0.3 sec
+Virtual memory size   :  355.9 MB
+Resident set size     :  79.1 MB
+Shared memory size    :  32.5 MB
+Private memory size   :  46.6 MB
+Major page faults     :  0
+Machine name          :  ferrari
+==============================
+
+Sun Apr  9 15:43:54 2023

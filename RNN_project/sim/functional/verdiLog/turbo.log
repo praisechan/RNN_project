@@ -1,0 +1,2 @@
+Command Line: /tool/Program/synopsys/verdi_vR-2020.12-SP1/platform/LINUXAMD64/bin/Novas -ssf ./reports/tb_TOP.fsdb -dbdir ./simv.daidir
+uname(Linux ferrari 3.10.0-1160.41.1.el7.x86_64 #1 SMP Tue Aug 31 14:52:47 UTC 2021 x86_64)

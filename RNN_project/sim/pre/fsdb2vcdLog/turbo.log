@@ -1,0 +1,6 @@
+Command Line: /tool/Program/synopsys/verdi_vR-2020.12-SP1/platform/LINUXAMD64/bin/fsdb2vcd ./reports/tb_fp_exp.fsdb -o waveform.vcd -sv
+uname(Linux ferrari 3.10.0-1160.41.1.el7.x86_64 #1 SMP Tue Aug 31 14:52:47 UTC 2021 x86_64)
+Load signals (0)-(506000) time 0.205416 0.450306 0.290069 delta 183582720 183582720 total 474021888 474021888
+Write signals (0)-(506000) time 0.032244 0.032233 0.000000 delta 1929216 1929216 total 475951104 475951104
+Unload (0)-(506000) time 0.009923 0.009923 0.000000 delta 0 0 total 475951104 475951104
+au time 0.929001 0.860269 0.303187 delta 200716288 200716288 total 309907456 309907456

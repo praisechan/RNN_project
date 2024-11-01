@@ -1,0 +1,190 @@
+
+Warning-[UNKWN_OPTVSIM] Unknown option passed
+  Ignoring unknown option '-adopt_wildcard' passed to 'vcs' and continuing 
+  compilation.
+
+Command: vcs -V -lca -kdb -sverilog -full64 -debug_access+all -debug_region+cell \
+-l logs/compile.log.0107_18:14:18 -timescale=1ns/1ps +incdir+ -y  /tool/Program/synopsys/syn_vS-2021.06-SP5-2/dw/sim_ver \
++libext+.v+ -adopt_wildcard -sdfretain -negdelay +neg_tchk +sdfverbose +maxdelays \
++define+sdf_post_wst -f ./script/run.f
+/tools/SYNOPSYS/VCS/M-2017.03-SP2/linux64/bin/vcs1 -Mcc=gcc -Mcplusplus=g++ -Masflags= \
+-Mcfl= -pipe -fPIC -O -I/tools/SYNOPSYS/VCS/M-2017.03-SP2/include  -Mxcflags= -pipe \
+-fPIC -I/tools/SYNOPSYS/VCS/M-2017.03-SP2/include -Mldflags= -rdynamic  -Mout=simv \
+-Mamsrun="" -Mvcsaceobjs="" -Mobjects=" /tools/SYNOPSYS/VCS/M-2017.03-SP2/linux64/lib/libvirsim.so \
+/tools/SYNOPSYS/VCS/M-2017.03-SP2/linux64/lib/liberrorinf.so /tools/SYNOPSYS/VCS/M-2017.03-SP2/linux64/lib/libsnpsmalloc.so \
+" -Mexternalobj= -Msaverestoreobj=/tools/SYNOPSYS/VCS/M-2017.03-SP2/linux64/lib/vcs_save_restore_new.o \
+-Mcrt0= -Mcrtn="" -Mcsrc="" -Msyslibs=/tools/SYNOPSYS/Verdi/N-2017.12-SP2-13/share/PLI/VCS/LINUX64/pli.a \
+-ldl  -l logs/compile.log.0107_18:14:18 -V -lca -kdb -Xufe=2steps -full64 -debug_access+all \
++vpi +vcsd1 +itf+/tools/SYNOPSYS/VCS/M-2017.03-SP2/linux64/lib/vcsdp_lite.tab -debug_region+cell \
+-timescale=1ns/1ps +libext+.v+ -sdfretain -negdelay +neg_tchk +sdfverbose +maxdelays \
++define+sdf_post_wst -picarchive -P /tools/SYNOPSYS/Verdi/N-2017.12-SP2-13/share/PLI/VCS/LINUX64/verdi.tab \
+-fsdb -sverilog -gen_obj +incdir+ -y /tool/Program/synopsys/syn_vS-2021.06-SP5-2/dw/sim_ver \
+-f ./script/run.f  
+                         Chronologic VCS (TM)
+       Version M-2017.03-SP2_Full64 -- Sat Jan  7 18:14:19 2023
+               Copyright (c) 1991-2017 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+
+Warning-[LCA_FEATURES_ENABLED] Usage warning
+  LCA features enabled by '-lca' argument on the command line.  For more 
+  information regarding list of LCA features please refer to Chapter "LCA 
+  features" in the VCS/VCS-MX Release Notes
+
+
+Warning-[DBGACC_REG0] Unrecognized '-debug_region' syntax
+  The syntax should be:  -debug_region=(<option>)(+<option>)*.
+  Please recompile using the '-debug_access<+options>' switch and incremental 
+  options as required.  Recommended options are '-debug_access' for 
+  post-process debug, '-debug_access+classdbg' for testbench debug, and 
+  '-debug_access+all' for all debug capabilities.  Refer the VCS user guide 
+  for more granular options for debug control under the switch '-debug_access'
+  and refer to '-debug_region' for region control.
+
+
+################# <-file/-f contents> ########################
+-f ./script/run.f
+        -v
+        /S28_dk/sc/9t/base_rvt_c130/ln28lpp_sc_9t_base_rvt_c130_FE-Common_sec190802_0203/MODEL/sc9_cmos28lpp_base_rvt_neg.v
+        -v
+        /S28_dk/io/1p8v/ln28lpp_gpio_1p8v_FE-Common_sec190321_0300/MODEL/io_gppr_cmos28lpp_t18.v
+        -v
+        /S28_dk/io/1p8v/ln28lpp_power_1p8v_7001_7002_2k_FE-Common_sec190904_0061/MODEL/pwr_gppr_cmos28lpp_t18.v
+        -v
+        /home2/mpw5602/project/jaeyong.jang/cmos28lpp_ra1_hd_1024x16m8/FE/MODEL/cmos28lpp_ra1_hd_1024x16m8.v
+        ../../../pnr/outputs_icc2/write_data0.v.gz
+        ../../../tb/tb_adder_tree.sv
+
+################# <-file/-f ends> ########################
+
+Parsing design file '../../../pnr/outputs_icc2/write_data0.v.gz'
+Parsing design file '../../../tb/tb_adder_tree.sv'
+
+Warning-[LFCOR] Library file or dir cannot be opened
+  Library directory '/tool/Program/synopsys/syn_vS-2021.06-SP5-2/dw/sim_ver' 
+  cannot be opened for reading due to 'No such file or directory', will skip 
+  it.
+  The library was specified from command line through -y or -v.
+
+Parsing library file '/S28_dk/sc/9t/base_rvt_c130/ln28lpp_sc_9t_base_rvt_c130_FE-Common_sec190802_0203/MODEL/sc9_cmos28lpp_base_rvt_neg.v'
+Top Level Modules:
+       tb_adder_tree
+
+Warning-[AOUP] Attempt to override undefined parameter
+../../../tb/tb_adder_tree.sv, 42
+  Attempting to override undefined parameter "PLANE_ROW", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../../../tb/tb_adder_tree.sv, 42
+  Attempting to override undefined parameter "PRECISION", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../../../tb/tb_adder_tree.sv, 42
+  Attempting to override undefined parameter "TREE_ONE", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../../../tb/tb_adder_tree.sv, 42
+  Attempting to override undefined parameter "TREE_TWO", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../../../tb/tb_adder_tree.sv, 42
+  Attempting to override undefined parameter "TREE_THREE", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../../../tb/tb_adder_tree.sv, 42
+  Attempting to override undefined parameter "TREE_FOUR", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../../../tb/tb_adder_tree.sv, 42
+  Attempting to override undefined parameter "TREE_FIVE", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../../../tb/tb_adder_tree.sv, 42
+  Attempting to override undefined parameter "TREE_SIX", will ignore it.
+
+
+Warning-[AOUP] Attempt to override undefined parameter
+../../../tb/tb_adder_tree.sv, 42
+  Attempting to override undefined parameter "TREE_SEVEN", will ignore it.
+
+TimeScale is 1 ns / 1 ps
+
+   ***   $sdf_annotate() version 1.2R
+   ***    SDF file: "../../../sta/POST/MAX/results0/adder_tree_max.sdf_PT"
+   ***    Annotation scope: tb_adder_tree.u_adder_tree
+   ***    No MTM selection argument specified
+   ***    No SCALE FACTORS argument specified
+   ***    No SCALE TYPE argument specified
+   ***    MTM selection defaulted to "TOOL_CONTROL":
+               (+maxdelays compiled, MAXIMUM delays selected)
+   ***    SCALE FACTORS defaulted to "1.0:1.0:1.0":
+   ***    SCALE TYPE defaulted to: "FROM_MTM"
+   ***    Turnoff delay: "FROM_FILE"
+   ***    Approximation (mipd) policy: "MAXIMUM"
+
+   ***    SDF annotation begin: Sat Jan  7 18:14:20 2023
+
+
+SDF Info: +pulse_r/100, +pulse_e/100 in effect
+
+          Total errors: 0
+          Total warnings: 0
+   ***    SDF annotation completed: Sat Jan  7 18:14:20 2023
+
+
+Starting vcs inline pass...
+15 unique modules and 1 UDP to generate
+recompiling module adder_tree
+recompiling module tb_adder_tree
+recompiling module ADDFH_X1M_A9TR
+recompiling module ADDF_X1M_A9TR
+recompiling module AO1B2_X0P5M_A9TR
+recompiling module AOI21_X0P5M_A9TR
+recompiling module CMPR42_X1M_A9TR
+recompiling module DFFQ_X0P5M_A9TR
+recompiling module INV_X0P5B_A9TR
+recompiling module INV_X0P5M_A9TR
+recompiling module NAND2_X0P5M_A9TR
+recompiling module NOR2B_X0P5M_A9TR
+recompiling module NOR2_X0P5M_A9TR
+recompiling module OA21_X0P5M_A9TR
+recompiling module OR2_X0P5M_A9TR
+All of 15 modules done
+
+Warning-[KDB-ELAB-W] Verdi KDB elaboration with warning
+  Verdi KDB elaboration finished with 0 error(s) and 9 warning(s).
+  Please look at this Verdi elaboration log file for details. 
+  /home2/mpw5602/project/jehun.lee/eDRAM/adder/sim/post/max/simv.daidir/elabcomLog/compiler.log
+
+( cd csrc ; make -f Makefile SNPS_VCS_TMPDIR=/tmp/vcs_20230107091418_193130 product \
+)
+make[1]: Entering directory `/home2/mpw5602/project/jehun.lee/eDRAM/adder/sim/post/max/csrc' \
+
+rm -f _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv   -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath=./simv.daidir/ \
+-Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  -rdynamic   objs/amcQw_d.o   _193782_archive_1.so \
+objs/udps/exIG1.o  SIM_l.o       rmapats_mop.o rmapats.o rmar.o rmar_nd.o  rmar_llvm_0_1.o \
+rmar_llvm_0_0.o          /tools/SYNOPSYS/VCS/M-2017.03-SP2/linux64/lib/libzerosoft_rt_stubs.so \
+/tools/SYNOPSYS/VCS/M-2017.03-SP2/linux64/lib/libvirsim.so /tools/SYNOPSYS/VCS/M-2017.03-SP2/linux64/lib/liberrorinf.so \
+/tools/SYNOPSYS/VCS/M-2017.03-SP2/linux64/lib/libsnpsmalloc.so    /tools/SYNOPSYS/VCS/M-2017.03-SP2/linux64/lib/libvcsnew.so \
+/tools/SYNOPSYS/VCS/M-2017.03-SP2/linux64/lib/libsimprofile.so /tools/SYNOPSYS/VCS/M-2017.03-SP2/linux64/lib/libuclinative.so \
+/tools/SYNOPSYS/VCS/M-2017.03-SP2/linux64/lib/vcs_tls.o   -Wl,-whole-archive /tools/SYNOPSYS/VCS/M-2017.03-SP2/linux64/lib/libvcsucli.so \
+-Wl,-no-whole-archive        _vcs_pli_stub_.o   /tools/SYNOPSYS/VCS/M-2017.03-SP2/linux64/lib/vcs_save_restore_new.o \
+/tools/SYNOPSYS/Verdi/N-2017.12-SP2-13/share/PLI/VCS/LINUX64/pli.a -ldl  -lc -lm \
+-lpthread -ldl 
+../simv up to date
+make[1]: Leaving directory `/home2/mpw5602/project/jehun.lee/eDRAM/adder/sim/post/max/csrc' \
+
+CPU time: 1.602 seconds to compile + .396 seconds to elab + .448 seconds to link
