@@ -1,5 +1,4 @@
-/home/juchan.lee/RNN_project/RTL/TOP/NEURON.sv
-/home/juchan.lee/RNN_project/RTL/TOP/RECBUF.sv
-/home/juchan.lee/RNN_project/RTL/TOP/RNN.sv
-/home/juchan.lee/RNN_project/RTL/TOP/common.svh
-/home/juchan.lee/RNN_project/tb/tb_TOP.sv
+/home/juchan.lee/RNN/RNN_project/RTL/TOP/NEURON.sv
+/home/juchan.lee/RNN/RNN_project/RTL/TOP/RECBUF.sv
+/home/juchan.lee/RNN/RNN_project/RTL/TOP/RNN.sv
+/home/juchan.lee/RNN/RNN_project/tb/tb_TOP.sv

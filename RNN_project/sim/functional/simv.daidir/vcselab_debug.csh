@@ -1,6 +1,6 @@
 #!/bin/csh -f
 
-cd /home/juchan.lee/RNN_project/sim/functional
+cd /home/juchan.lee/RNN/RNN_project/sim/functional
 
 #This ENV is used to avoid overriding current script in next vcselab run 
 setenv SNPS_VCSELAB_SCRIPT_NO_OVERRIDE  1

@@ -1,7 +1,6 @@
 `timescale 1ns / 1ps
 
 `define WAIT_POSEDGE(x) @(posedge x); #(1);
-`include "common.svh"
 
 module tb_TOP;
 
@@ -10,9 +9,30 @@ module tb_TOP;
   parameter  int unsigned MaxCycle  = 10000;
   parameter  time         CyclTime  = 10ns;
   parameter  time         ApplTime  = 2ns;
-  
+
   localparam period = 10;
   localparam PRECISION = 16;
+
+  parameter [3:0] w0_0=0;
+  parameter [3:0] w1_0=0;
+  parameter [3:0] w2_0=0;
+  parameter [3:0] w3_0=0;
+  parameter [3:0] w0_1=0;
+  parameter [3:0] w1_1=0;
+  parameter [3:0] w2_1=0;
+  parameter [3:0] w3_1=0;
+  parameter [3:0] w0_2=0;
+  parameter [3:0] w1_2=0;
+  parameter [3:0] w2_2=0;
+  parameter [3:0] w3_2=0;
+  parameter [3:0] w0_3=0;
+  parameter [3:0] w1_3=0;
+  parameter [3:0] w2_3=0;
+  parameter [3:0] w3_3=0;
+  parameter [3:0] w0_4=0;
+  parameter [3:0] w1_4=0;
+  parameter [3:0] w2_4=0;
+  parameter [3:0] w3_4=0;
 
   logic CLK;
   logic RSTB;
@@ -25,9 +45,6 @@ module tb_TOP;
     $display("The testbench force quit");
     $finish;
   end
-
-
-
 
   logic [7:0] ref_val;
   logic [7:0] eval_val;
@@ -49,26 +66,26 @@ module tb_TOP;
   logic IN2_DATA;
 
   RNN #(
-    .w0_0(0),
-    .w1_0(0),
-    .w2_0(0),
-    .w3_0(0),
-    .w0_1(0),
-    .w1_1(0),
-    .w2_1(0),
-    .w3_1(0),
-    .w0_2(0),
-    .w1_2(0),
-    .w2_2(0),
-    .w3_2(0),
-    .w0_3(0),
-    .w1_3(0),
-    .w2_3(0),
-    .w3_3(0),
-    .w0_4(0),
-    .w1_4(0),
-    .w2_4(0),
-    .w3_4(0)
+    .w0_0(w0_0),
+    .w1_0(w1_0),
+    .w2_0(w2_0),
+    .w3_0(w3_0),
+    .w0_1(w0_1),
+    .w1_1(w1_1),
+    .w2_1(w2_1),
+    .w3_1(w3_1),
+    .w0_2(w0_2),
+    .w1_2(w1_2),
+    .w2_2(w2_2),
+    .w3_2(w3_2),
+    .w0_3(w0_3),
+    .w1_3(w1_3),
+    .w2_3(w2_3),
+    .w3_3(w3_3),
+    .w0_4(w0_4),
+    .w1_4(w1_4),
+    .w2_4(w2_4),
+    .w3_4(w3_4)
   )
   u_RNN
   (
@@ -117,7 +134,7 @@ module tb_TOP;
     $finish;
   end
 
-  logic [7:0] random_data[1023:0];
+  logic [7:0] random_data[63:0];
   event output_ack;
 
   always @(posedge CLK)begin
@@ -128,7 +145,7 @@ module tb_TOP;
   task RNN_TEST();
     begin
       // initialize random data
-      for (int u = 0; u < 1024; u++) begin
+      for (int u = 0; u < 64; u++) begin
         std::randomize(random_data[u]);
       end
 

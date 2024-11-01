@@ -84,7 +84,7 @@ VCS compile option:
  option[0]: ./simv
  option[1]: -reportstats
  option[2]: -l
- option[3]: ./logs/sim.log.1101_20:17:13
+ option[3]: ./logs/sim.log.1102_00:26:21
  option[4]: /tool/Program/synopsys/vcs_vR-2020.12-SP1/linux64/bin/vcs1
  option[5]: -Mcc=gcc
  option[6]: -Mcplusplus=g++
@@ -104,7 +104,7 @@ VCS compile option:
  option[20]: -Mcsrc=
  option[21]: -Msyslibs=/tool/Program/synopsys/verdi_vR-2020.12-SP1/share/PLI/VCS/LINUX64/pli.a -ldl 
  option[22]: -l
- option[23]: logs/compile.log.1101_20:17:11
+ option[23]: logs/compile.log.1102_00:26:20
  option[24]: -V
  option[25]: -lca
  option[26]: -kdb
@@ -153,13 +153,12 @@ maxproc		4096
 Runtime environment variables:
 SYNOPSYS_LC_ROOT=/tool/Program/synopsys/lc_vM-2016.12-SP3-1
 SALT_LICENSE_SERVER=1717@143.248.230.188:1717@143.248.230.169:1717@143.248.230.189
-XDG_SESSION_ID=c13
-SSH_AGENT_PID=127022
+XDG_SESSION_ID=c17
+SSH_AGENT_PID=53662
 HOSTNAME=ferrari
 XRDP_SOCKET_PATH=/run/xrdp
 UVM_HOME=/tool/Program/synopsys/verdi_vR-2020.12-SP1/etc/uvm-1.2
 IMSETTINGS_INTEGRATE_DESKTOP=yes
-GPG_AGENT_INFO=/home/juchan.lee/.gnupg/S.gpg-agent:127033:1
 TERM=xterm-256color
 VTE_VERSION=5204
 SHELL=/bin/zsh
@@ -171,7 +170,7 @@ QS_PATH=/tool/Program/mentor/QuestaSim-2020.3_2/linux_x86_64
 GSETTINGS_SCHEMA_DIR_CONDA_BACKUP=
 CDS_LOAD_ENV=addCWD
 PPW_HOME=/tool/Program/synopsys/ppower_vS-2021.06-SP5
-WINDOWID=39845891
+WINDOWID=37748739
 CDS_HOME=/tool/Program/cadence/IC618
 ZSH=/home/juchan.lee/.oh-my-zsh
 DVT_HOME=/tool/Program/amiq/dvt_eclipse
@@ -180,14 +179,14 @@ USER=juchan.lee
 LD_LIBRARY_PATH=/home/juchan.lee/anaconda3/lib:
 LS_COLORS=rs=0:di=38;5;27:ln=38;5;51:mh=44;38;5;15:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=05;48;5;232;38;5;15:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;34:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lz4=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.Z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lrz=38;5;9:*.lz=38;5;9:*.lzo=38;5;9:*.xz=38;5;9:*.bz2=38;5;9:*.bz=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.war=38;5;9:*.ear=38;5;9:*.sar=38;5;9:*.rar=38;5;9:*.alz=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.cab=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.webm=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.axv=38;5;13:*.anx=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.axa=38;5;45:*.oga=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:
 CONDA_EXE=/home/juchan.lee/anaconda3/bin/conda
-SSH_AUTH_SOCK=/tmp/ssh-bvhqBT28U1lP/agent.126845
+SSH_AUTH_SOCK=/tmp/ssh-xqAZPkjTHX3H/agent.53479
 XILINXD_LICENSE_FILE=2100@vlsi-vpn.snu.ac.kr
 MAKELEVEL=1
-SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/126845,unix/unix:/tmp/.ICE-unix/126845
+SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/53479,unix/unix:/tmp/.ICE-unix/53479
 SNPSLMD_LICENSE_FILE=1727@veritas.snu.ac.kr
 PAGER=less
 MFLAGS=
-XRDP_PULSE_SINK_SOCKET=xrdp_chansrv_audio_out_socket_11
+XRDP_PULSE_SINK_SOCKET=xrdp_chansrv_audio_out_socket_15
 _CE_CONDA=
 MODELTECH_PATH=/tool/Program/mentor/QuestaSim-2020.3_2/linux_x86_64/share/modeltech/linux_x86_64
 PULSE_SCRIPT=/etc/xrdp/pulse/default.pa
@@ -200,13 +199,13 @@ GSETTINGS_SCHEMA_DIR=/home/juchan.lee/anaconda3/share/glib-2.0/schemas
 _=./simv
 CONDA_PREFIX=/home/juchan.lee/anaconda3
 VERDI_HOME=/tool/Program/synopsys/verdi_vR-2020.12-SP1
-PWD=/home/juchan.lee/RNN_project/sim/functional
+PWD=/home/juchan.lee/RNN/RNN_project/sim/functional
 MW_HOME=/tool/Program/synopsys/mw_vL-2016.03-SP3
 VCS_HOME=/tool/Program/synopsys/vcs_vR-2020.12-SP1
 XRDP_SESSION=1
 PTS_HOME=/tool/Program/synopsys/pts_vQ-2019.12-SP4
 LANG=C
-XRDP_PULSE_SOURCE_SOCKET=xrdp_chansrv_audio_in_socket_11
+XRDP_PULSE_SOURCE_SOCKET=xrdp_chansrv_audio_in_socket_15
 OA_HOME=/tool/Program/cadence/IC618/oa_v22.60.054
 DVTLMD_LICENSE_FILE=20000@vlsi-mini.snu.ac.kr
 CDS_HOME618=/tool/Program/cadence/IC618
@@ -224,7 +223,7 @@ DVT_LICENSE_FILE=FLEXLM
 LESS=-R
 LOGNAME=juchan.lee
 MGLS_LICENSE_FILE=1717@143.248.230.188:1717@143.248.230.169:1717@143.248.230.189
-DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-wGpgjt0qTK,guid=0013869d2cdfb6718178443a65c45d92
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-EU449Rbetl,guid=1ff1a7df4c60b4fe4bc52f3965c6ee88
 XDG_DATA_DIRS=/home/juchan.lee/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop
 LC_CTYPE=en_US.UTF-8
 UID=1134
@@ -232,7 +231,7 @@ CDS_LIC_FILE=5280@veritas.snu.ac.kr:5280@143.248.230.188:5280@143.248.230.169:52
 CONDA_DEFAULT_ENV=base
 LESSOPEN=||/usr/bin/lesspipe.sh %s
 DVT_PREDEFINED_PROJECTS=/tool/Program/amiq/dvt_eclipse/predefined_projects
-DISPLAY=:11.0
+DISPLAY=:15.0
 XDG_RUNTIME_DIR=/run/user/1134
 DVT_COMMON_SETTINGS=/tool/Program/amiq/dvt_eclipse/theme/Basic
 COLORTERM=truecolor
@@ -247,80 +246,80 @@ Runtime command line arguments:
 argv[0]=./simv
 argv[1]=-reportstats
 argv[2]=-l
-argv[3]=./logs/sim.log.1101_20:17:13
-250 profile - 100
-          CPU/Mem usage: 0.020 sys,  0.230 user,  232.08M mem
-251 Elapsed time:    0:00:00    Fri Nov  1 20:17:13 2024
-252 pliAppInit
-253 [SC]Init: MemoryConsumed=0.00MB ElapsedTime=0hour 0min. 0sec.
-254 FSDB_GATE is set.
-255 FSDB_RTL is set.
-256 FSDB_FIELDTYPE is set.
-257 FSDB_ALIAS_ARRAY_ELEM is set to 4294967295.
-258 Enable Parallel Dumping.
-259 pliAppMiscSet: New Sim Round
-260 pliEntryInit
-261 LIBSSCORE=found /tool/Program/synopsys/verdi_vR-2020.12-SP1/share/PLI/lib/LINUXAMD64/libsscore_vcs202012.so through $NOVAS_HOME setting.
-262 FSDB Dumper for VCS, Release Verdi_R-2020.12-SP1, Linux x86_64/64bit, 03/02/2021
-263 (C) 1996 - 2021 by Synopsys, Inc.
-264 sps_call_fsdbDumpfile_main at 0 : ../../tb/tb_TOP.sv(98)
-265 argv[0]: (./reports/tb_TOP.fsdb)
-266 *Verdi* : Create FSDB file './reports/tb_TOP.fsdb'
-267 [spi_vcs_vd_ppi_create_root]: no upf option
-268 FSDB dumper cannot dump UPF related power signal ($power_tree): no ppiPowerNetwork.
-269 compile option from '/home/juchan.lee/RNN_project/sim/functional/simv.daidir/vcs_rebuild'.
-270   "vcs '-V' '-lca' '-kdb' '-sverilog' '-full64' '-debug_access+all' '-l' 'logs/compile.log.1101_20:17:11' '-timescale=1ns/1ps' '+incdir+../../RTL/TOP/' '-y' '/tool/Program/synopsys/syn_vS-2021.06-SP5-2/dw/sim_ver' '+delay_mode_zero' '+libext+.v+' '+define+FUNCTIONAL+' '-f' './script/run_TOP.f' 2>&1"
-271 DVDI_is_vir_unload_enabled is enable
-272 FSDB_VCS_ENABLE_NATIVE_VC is enable
-273 sps_call_fsdbDumpvars_vd_main at 0 : ../../tb/tb_TOP.sv(99)
-274 argv[0]: (0)
-275 argv[1]: (+all)
-276 argv[2]: (+parameter)
-277 argv[3]: (+functions)
-278 *Verdi* : Begin traversing the scopes, layer (0).
-279 *Verdi* : Enable +all, +parameter and +functions dumping.
-280 *Verdi* : End of traversing.
-281 pliAppHDL_DumpVarComplete traverse var: profile - 
-          CPU/Mem usage: 0.030 sys,  0.230 user,  331.75M mem
-                   incr: 0.000 sys,  0.000 user,  7.98M mem
-                   accu: 0.000 sys,  0.000 user,  7.98M mem
-              accu incr: 0.000 sys,  0.000 user,  7.98M mem
+argv[3]=./logs/sim.log.1102_00:26:21
+249 profile - 100
+          CPU/Mem usage: 0.020 sys,  0.240 user,  232.08M mem
+250 Elapsed time:    0:00:01    Sat Nov  2 00:26:22 2024
+251 pliAppInit
+252 [SC]Init: MemoryConsumed=0.00MB ElapsedTime=0hour 0min. 0sec.
+253 FSDB_GATE is set.
+254 FSDB_RTL is set.
+255 FSDB_FIELDTYPE is set.
+256 FSDB_ALIAS_ARRAY_ELEM is set to 4294967295.
+257 Enable Parallel Dumping.
+258 pliAppMiscSet: New Sim Round
+259 pliEntryInit
+260 LIBSSCORE=found /tool/Program/synopsys/verdi_vR-2020.12-SP1/share/PLI/lib/LINUXAMD64/libsscore_vcs202012.so through $NOVAS_HOME setting.
+261 FSDB Dumper for VCS, Release Verdi_R-2020.12-SP1, Linux x86_64/64bit, 03/02/2021
+262 (C) 1996 - 2021 by Synopsys, Inc.
+263 sps_call_fsdbDumpfile_main at 0 : ../../tb/tb_TOP.sv(115)
+264 argv[0]: (./reports/tb_TOP.fsdb)
+265 *Verdi* : Create FSDB file './reports/tb_TOP.fsdb'
+266 [spi_vcs_vd_ppi_create_root]: no upf option
+267 FSDB dumper cannot dump UPF related power signal ($power_tree): no ppiPowerNetwork.
+268 compile option from '/home/juchan.lee/RNN/RNN_project/sim/functional/simv.daidir/vcs_rebuild'.
+269   "vcs '-V' '-lca' '-kdb' '-sverilog' '-full64' '-debug_access+all' '-l' 'logs/compile.log.1102_00:26:20' '-timescale=1ns/1ps' '+incdir+../../RTL/TOP/' '-y' '/tool/Program/synopsys/syn_vS-2021.06-SP5-2/dw/sim_ver' '+delay_mode_zero' '+libext+.v+' '+define+FUNCTIONAL+' '-f' './script/run_TOP.f' 2>&1"
+270 DVDI_is_vir_unload_enabled is enable
+271 FSDB_VCS_ENABLE_NATIVE_VC is enable
+272 sps_call_fsdbDumpvars_vd_main at 0 : ../../tb/tb_TOP.sv(116)
+273 argv[0]: (0)
+274 argv[1]: (+all)
+275 argv[2]: (+parameter)
+276 argv[3]: (+functions)
+277 *Verdi* : Begin traversing the scopes, layer (0).
+278 *Verdi* : Enable +all, +parameter and +functions dumping.
+279 *Verdi* : End of traversing.
+280 pliAppHDL_DumpVarComplete traverse var: profile - 
+          CPU/Mem usage: 0.030 sys,  0.240 user,  331.73M mem
+                   incr: 0.000 sys,  0.000 user,  7.94M mem
+                   accu: 0.000 sys,  0.000 user,  7.94M mem
+              accu incr: 0.000 sys,  0.000 user,  7.94M mem
 
-          Count usage: 1357 var,  1239 idcode,  124 callback
-                 incr: 1357 var,  1239 idcode,  124 callback
-                 accu: 1357 var,  1239 idcode,  124 callback
-            accu incr: 1357 var,  1239 idcode,  124 callback
-282 Elapsed time:    0:00:00    Fri Nov  1 20:17:13 2024
-283 pliAppHDL_DumpVarComplete: profile - 
-          CPU/Mem usage: 0.030 sys,  0.240 user,  332.80M mem
-                   incr: 0.000 sys,  0.010 user,  1.05M mem
-                   accu: 0.000 sys,  0.010 user,  9.03M mem
-              accu incr: 0.000 sys,  0.010 user,  1.05M mem
+          Count usage: 412 var,  274 idcode,  119 callback
+                 incr: 412 var,  274 idcode,  119 callback
+                 accu: 412 var,  274 idcode,  119 callback
+            accu incr: 412 var,  274 idcode,  119 callback
+281 Elapsed time:    0:00:01    Sat Nov  2 00:26:22 2024
+282 pliAppHDL_DumpVarComplete: profile - 
+          CPU/Mem usage: 0.030 sys,  0.240 user,  332.78M mem
+                   incr: 0.000 sys,  0.000 user,  1.05M mem
+                   accu: 0.000 sys,  0.000 user,  8.99M mem
+              accu incr: 0.000 sys,  0.000 user,  1.05M mem
 
-          Count usage: 1357 var,  1239 idcode,  124 callback
+          Count usage: 412 var,  274 idcode,  119 callback
                  incr: 0 var,  0 idcode,  0 callback
-                 accu: 1357 var,  1239 idcode,  124 callback
+                 accu: 412 var,  274 idcode,  119 callback
             accu incr: 0 var,  0 idcode,  0 callback
-284 Elapsed time:    0:00:00    Fri Nov  1 20:17:13 2024
-285 sps_call_fsdbDumpFinish_vd_main at 5486000 : ../../tb/tb_TOP.sv(116)
-286 Begin FSDB profile info:
-287 FSDB Writer : bc1(2264) bcn(9113) mtf/stf(0/0)
-FSDB Writer elapsed time : flush(0.020918) io wait(0.000000) theadpool wait(0.000000)
+283 Elapsed time:    0:00:01    Sat Nov  2 00:26:22 2024
+284 sps_call_fsdbDumpFinish_vd_main at 5486000 : ../../tb/tb_TOP.sv(133)
+285 Begin FSDB profile info:
+286 FSDB Writer : bc1(2032) bcn(7456) mtf/stf(0/0)
+FSDB Writer elapsed time : flush(0.016683) io wait(0.000000) theadpool wait(0.000000)
 FSDB Writer cpu time : MT Compression : 0
-288 End FSDB profile info
-289 FSDB closed. Name: ./reports/tb_TOP.fsdb Size: 16876
-290 *Verdi* : Close all FSDB Files at 5,486,000 ps.
-291 End of simulation at 5486000
-292 Memory usage: 334.451 M
-293 Elapsed time:    0:00:00    Fri Nov  1 20:17:13 2024
-294 Parallel profile     - ProducerThread:1 ConsumerThread:1 Buffer:64MB
-295                      - BlockUsed:1 Acquire:11386 BufferUsed:139496
-296                      - Flush:4 Expand:0 ProducerWait:0 ConsumerWait:0
-297                      - MainProducerTime:0.300866748 TotalConsumerTime:0.000000000
-298                      - ElapsedTime:0.227915000
-299 Producer   0 profile - BlockUsed:1 Acquire:11386 BufferUsed:139496
-300 Consumer   0 profile - Affinity:-1 CPUTime:0.000000000 LifeTime:0.000000000 (-nan%)
-301                      - BlockUsed:1 Acquire:11386 BufferUsed:139496
-302 SimExit
-303 Elapsed time:    0:00:00    Fri Nov  1 20:17:13 2024
-304 Sim process exit
+287 End FSDB profile info
+288 FSDB closed. Name: ./reports/tb_TOP.fsdb Size: 15076
+289 *Verdi* : Close all FSDB Files at 5,486,000 ps.
+290 End of simulation at 5486000
+291 Memory usage: 334.393 M
+292 Elapsed time:    0:00:01    Sat Nov  2 00:26:22 2024
+293 Parallel profile     - ProducerThread:1 ConsumerThread:1 Buffer:64MB
+294                      - BlockUsed:1 Acquire:10438 BufferUsed:125872
+295                      - Flush:4 Expand:0 ProducerWait:0 ConsumerWait:0
+296                      - MainProducerTime:0.291976867 TotalConsumerTime:0.000000000
+297                      - ElapsedTime:0.176204000
+298 Producer   0 profile - BlockUsed:1 Acquire:10438 BufferUsed:125872
+299 Consumer   0 profile - Affinity:-1 CPUTime:0.000000000 LifeTime:0.000000000 (-nan%)
+300                      - BlockUsed:1 Acquire:10438 BufferUsed:125872
+301 SimExit
+302 Elapsed time:    0:00:01    Sat Nov  2 00:26:22 2024
+303 Sim process exit

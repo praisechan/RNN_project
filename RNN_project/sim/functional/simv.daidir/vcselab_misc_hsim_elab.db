@@ -1,6 +1,6 @@
 psSimBaseName                      	simv
-psLogFileName                      	logs/compile.log.1101_20:17:11
-pDaiDir                            	/home/juchan.lee/RNN_project/sim/functional/simv.daidir
+psLogFileName                      	logs/compile.log.1102_00:26:20
+pDaiDir                            	/home/juchan.lee/RNN/RNN_project/sim/functional/simv.daidir
 destPath                           	csrc/
 fSharedMaster                      	0
 fHsimPCSharedLibSpecified          	0

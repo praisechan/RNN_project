@@ -1,7 +1,7 @@
 rc file Version 1.0
 
 [Design]
-COMPILE_PATH=/home/juchan.lee/RNN_project/sim/functional
+COMPILE_PATH=/home/juchan.lee/RNN/RNN_project/sim/functional
 VCS_HOME=/tool/Program/synopsys/vcs_vR-2020.12-SP1
 VERDI_HOME=/tool/Program/synopsys/verdi_vR-2020.12-SP1
 SystemC=FALSE

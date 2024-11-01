@@ -1,6 +1,4 @@
-2        
-0 common.svh
-0 /tool/Program/synopsys/vcs_vR-2020.12-SP1/etc/systemverilog/common.svh
+0 
 44
 +define+FUNCTIONAL+
 +delay_mode_zero
@@ -42,19 +40,19 @@
 -timescale=1ns/1ps
 -y
 /tool/Program/synopsys/vcs_vR-2020.12-SP1/linux64/bin/vcs1
-logs/compile.log.1101_20:17:11
+logs/compile.log.1102_00:26:20
 /tool/Program/synopsys/verdi_vR-2020.12-SP1/share/PLI/VCS/LINUX64/verdi.tab
 /tool/Program/synopsys/syn_vS-2021.06-SP5-2/dw/sim_ver
 ./script/run_TOP.f
-79
+78
 _CE_M=
 _CE_CONDA=
 ZSH=/home/juchan.lee/.oh-my-zsh
 XRDP_SOCKET_PATH=/run/xrdp
 XRDP_SESSION=1
-XRDP_PULSE_SOURCE_SOCKET=xrdp_chansrv_audio_in_socket_11
-XRDP_PULSE_SINK_SOCKET=xrdp_chansrv_audio_out_socket_11
-XDG_SESSION_ID=c13
+XRDP_PULSE_SOURCE_SOCKET=xrdp_chansrv_audio_in_socket_15
+XRDP_PULSE_SINK_SOCKET=xrdp_chansrv_audio_out_socket_15
+XDG_SESSION_ID=c17
 XDG_RUNTIME_DIR=/run/user/1134
 XDG_DATA_DIRS=/home/juchan.lee/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop
 XCELIUM_HOME=/tool/Program/cadence/XCELIUM1903
@@ -65,7 +63,7 @@ VERDI_HOME=/tool/Program/synopsys/verdi_vR-2020.12-SP1
 VC_HOME=/tool/Program/synopsys/vcs_vR-2020.12-SP1
 VCS_MX_HOME_INTERNAL=1
 VCS_MODE_FLAG=64
-VCS_LOG_FILE=logs/compile.log.1101_20:17:11
+VCS_LOG_FILE=logs/compile.log.1102_00:26:20
 VCS_LCAMSG_PRINT_OFF=1
 VCS_HOME=/tool/Program/synopsys/vcs_vR-2020.12-SP1
 VCS_DEPTH=0
@@ -75,11 +73,11 @@ UVM_HOME=/tool/Program/synopsys/verdi_vR-2020.12-SP1/etc/uvm-1.2
 UNAME=/bin/uname
 TOOL_HOME=/tool/Program/synopsys/vcs_vR-2020.12-SP1/linux64
 SYNOPSYS_LC_ROOT=/tool/Program/synopsys/lc_vM-2016.12-SP3-1
-SSH_AUTH_SOCK=/tmp/ssh-bvhqBT28U1lP/agent.126845
+SSH_AUTH_SOCK=/tmp/ssh-xqAZPkjTHX3H/agent.53479
 SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
-SSH_AGENT_PID=127022
+SSH_AGENT_PID=53662
 SNPS_VERDI_INTERNAL_LP_XML_NEW_FLOW=1
-SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/126845,unix/unix:/tmp/.ICE-unix/126845
+SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/53479,unix/unix:/tmp/.ICE-unix/53479
 SCRNAME=vcs
 SCRIPT_NAME=vcs
 SALT_LICENSE_SERVER=1717@143.248.230.188:1717@143.248.230.169:1717@143.248.230.189
@@ -106,14 +104,13 @@ ICC2_HOME=/tool/Program/synopsys/icc2_vT-2022.03-SP3
 HISTCONTROL=ignoredups
 GSETTINGS_SCHEMA_DIR_CONDA_BACKUP=
 GSETTINGS_SCHEMA_DIR=/home/juchan.lee/anaconda3/share/glib-2.0/schemas
-GPG_AGENT_INFO=/home/juchan.lee/.gnupg/S.gpg-agent:127033:1
 DVT_PREDEFINED_PROJECTS=/tool/Program/amiq/dvt_eclipse/predefined_projects
 DVT_LICENSE_FILE=FLEXLM
 DVT_HOME=/tool/Program/amiq/dvt_eclipse
 DVT_COMMON_SETTINGS=/tool/Program/amiq/dvt_eclipse/theme/Basic
 DVTLMD_LICENSE_FILE=20000@vlsi-mini.snu.ac.kr
 DCC_HOME=/tool/Program/synopsys/syn_vS-2021.06-SP5-2
-DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-wGpgjt0qTK,guid=0013869d2cdfb6718178443a65c45d92
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-EU449Rbetl,guid=1ff1a7df4c60b4fe4bc52f3965c6ee88
 CONDA_SHLVL=1
 CONDA_PYTHON_EXE=/home/juchan.lee/anaconda3/bin/python
 CONDA_PROMPT_MODIFIER=(base) 
@@ -127,13 +124,12 @@ CDS_LIC_FILE=5280@veritas.snu.ac.kr:5280@143.248.230.188:5280@143.248.230.169:52
 CDS_HOME=/tool/Program/cadence/IC618
 CDS_HOME618=/tool/Program/cadence/IC618
 0
-8
-1730448456 ../../RTL/TOP/common.svh
-1730459823 ../../tb/tb_TOP.sv
-1730448828 ../../RTL/TOP/RECBUF.sv
-1730459411 ../../RTL/TOP/NEURON.sv
-1730448806 ../../RTL/TOP/RNN.sv
-1730448981 ./script/run_TOP.f
+7
+1730472544 ../../tb/tb_TOP.sv
+1730460360 ../../RTL/TOP/RECBUF.sv
+1730474773 ../../RTL/TOP/NEURON.sv
+1730460360 ../../RTL/TOP/RNN.sv
+1730460359 ./script/run_TOP.f
 1614702492 /tool/Program/synopsys/verdi_vR-2020.12-SP1/share/PLI/VCS/LINUX64/verdi.tab
 1614744659 /tool/Program/synopsys/vcs_vR-2020.12-SP1/linux64/lib/vcsdp_lite.tab
 4
@@ -141,5 +137,5 @@ CDS_HOME618=/tool/Program/cadence/IC618
 1614745576 /tool/Program/synopsys/vcs_vR-2020.12-SP1/linux64/lib/liberrorinf.so
 1614745306 /tool/Program/synopsys/vcs_vR-2020.12-SP1/linux64/lib/libsnpsmalloc.so
 1614745567 /tool/Program/synopsys/vcs_vR-2020.12-SP1/linux64/lib/libvfs.so
-1730459832 simv.daidir
+1730474781 simv.daidir
 -1 partitionlib

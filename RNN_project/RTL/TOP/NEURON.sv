@@ -45,7 +45,6 @@ logic [2:0] recv_bit_counter[3:0];        // Bit counters for each input
 logic [3:0] recv_flag; //if 8bit data is received, raise flag
 logic signed [11:0] sum;             // Accumulation register
 logic signed [7:0] output_data;      // Output after ReLU activation
-logic signed [7:0] output_data_reg;      // Output after ReLU activation
 logic signed [11:0] scaled_data [3:0];
 logic [2:0] send_bit_counter;        // Bit counters for each output
 
@@ -92,13 +91,13 @@ always_ff @(posedge CLK or negedge RSTB) begin
         IN1_REQ <= 1;
         IN2_REQ <= 1;
         IN3_REQ <= 1;
-        output_data_reg <= 0;
         send_bit_counter <= 0;
     end
     case(state)
         IDLE:begin
             send_bit_counter <= 0;
             OUT_ACK <= 0;              // Deassert ACK after output is sent
+            OUT_DATA <= 0;
             if (IN0_ACK) begin
                 IN0_REQ <= 0;
                 data[0] <= {IN0_DATA, data[0][7:1]}; // Shift in LSB first
@@ -159,22 +158,21 @@ always_ff @(posedge CLK or negedge RSTB) begin
             end
         end
         COMP:begin
-            output_data_reg <= output_data;   // Latch computed output
-            recv_flag = 4'b0;
+            recv_flag <= 4'b0;
             if(OUT_REQ) begin
               OUT_ACK <= 1;              // Signal output is ready        
-              OUT_DATA <= output_data_reg[0];
+              OUT_DATA <= output_data[0];
             end
         end
         SEND:begin
             OUT_ACK <= 0;
-            OUT_DATA <= output_data_reg[send_bit_counter + 1];
-            send_bit_counter += 3'b1;
+            OUT_DATA <= (send_bit_counter < 3'b111)?output_data[send_bit_counter + 1]:0;
+            send_bit_counter <= send_bit_counter + 3'b1;
             if(send_bit_counter==3'b111)begin
-                IN0_REQ = 1;
-                IN1_REQ = 1;
-                IN2_REQ = 1;
-                IN3_REQ = 1;
+                IN0_REQ <= 1;
+                IN1_REQ <= 1;
+                IN2_REQ <= 1;
+                IN3_REQ <= 1;
             end
         end
     endcase    
@@ -182,11 +180,11 @@ end
 
 // Arithmetic computation logic
 always_comb begin
-    scaled_data[0] = (w0[3] ? -data[0] : data[0]) >>> w0[2:0];
-    scaled_data[1] = (w1[3] ? -data[1] : data[1]) >>> w1[2:0];
-    scaled_data[2] = (w2[3] ? -data[2] : data[2]) >>> w2[2:0];
-    scaled_data[3] = (w3[3] ? -data[3] : data[3]) >>> w3[2:0];
+    scaled_data[0] = (w0[3] ? ~data[0]+1 : data[0]) >>> w0[2:0];
+    scaled_data[1] = (w1[3] ? ~data[1]+1 : data[1]) >>> w1[2:0];
+    scaled_data[2] = (w2[3] ? ~data[2]+1 : data[2]) >>> w2[2:0];
+    scaled_data[3] = (w3[3] ? ~data[3]+1 : data[3]) >>> w3[2:0];
     sum = scaled_data[0] + scaled_data[1] + scaled_data[2] + scaled_data[3];
-    output_data = (sum > 0) ? sum[7:0] : 8'b0; // Apply ReLU
+    output_data = (sum > 0)? (sum < 8'b0111_1111 ? sum[7:0]: 8'b0111_1111): 8'b0; // Apply ReLU
 end
 endmodule
