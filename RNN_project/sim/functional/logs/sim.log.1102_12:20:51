@@ -1,7 +1,7 @@
-Command: /home/juchan.lee/RNN/RNN_project/sim/functional/./simv -reportstats -l ./logs/sim.log.1102_00:26:21
+Command: /home/juchan.lee/RNN/RNN_project/sim/functional/./simv -reportstats -l ./logs/sim.log.1102_12:20:51
 Chronologic VCS simulator copyright 1991-2020
 Contains Synopsys proprietary information.
-Compiler version R-2020.12-SP1_Full64; Runtime version R-2020.12-SP1_Full64;  Nov  2 00:26 2024
+Compiler version R-2020.12-SP1_Full64; Runtime version R-2020.12-SP1_Full64;  Nov  2 12:20 2024
 *Verdi* Loading libsscore_vcs202012.so
 FSDB Dumper for VCS, Release Verdi_R-2020.12-SP1, Linux x86_64/64bit, 03/02/2021
 (C) 1996 - 2021 by Synopsys, Inc.
@@ -17,7 +17,7 @@ Time: 5486000 ps
 
 Simulation Performance Summary
 ==============================
-Simulation started at :  Sat Nov  2 00:26:21 2024
+Simulation started at :  Sat Nov  2 12:20:51 2024
 Elapsed Time          :  2 sec
 CPU Time              :  0.3 sec
 Virtual memory size   :  318.9 MB
@@ -28,4 +28,4 @@ Major page faults     :  0
 Machine name          :  ferrari
 ==============================
 
-Sat Nov  2 00:26:22 2024
+Sat Nov  2 12:20:52 2024

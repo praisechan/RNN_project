@@ -43,9 +43,9 @@ state_type state;
 logic [7:0] data[3:0];               // Array for input data
 logic [2:0] recv_bit_counter[3:0];        // Bit counters for each input
 logic [3:0] recv_flag; //if 8bit data is received, raise flag
-logic signed [11:0] sum;             // Accumulation register
+logic signed [10:0] sum;             // Accumulation register
 logic signed [7:0] output_data;      // Output after ReLU activation
-logic signed [11:0] scaled_data [3:0];
+logic signed [7:0] scaled_data [3:0];
 logic [2:0] send_bit_counter;        // Bit counters for each output
 
 // State transition logic
@@ -65,7 +65,7 @@ always_ff @(posedge CLK or negedge RSTB) begin
               end
           end
           COMP: begin
-              if (OUT_REQ) begin
+              if (OUT_REQ && (recv_flag==4'b0)) begin
                   state <= SEND;
               end
           end
@@ -159,7 +159,7 @@ always_ff @(posedge CLK or negedge RSTB) begin
         end
         COMP:begin
             recv_flag <= 4'b0;
-            if(OUT_REQ) begin
+            if(OUT_REQ && (recv_flag==4'b0)) begin
               OUT_ACK <= 1;              // Signal output is ready        
               OUT_DATA <= output_data[0];
             end
@@ -185,6 +185,6 @@ always_comb begin
     scaled_data[2] = (w2[3] ? ~data[2]+1 : data[2]) >>> w2[2:0];
     scaled_data[3] = (w3[3] ? ~data[3]+1 : data[3]) >>> w3[2:0];
     sum = scaled_data[0] + scaled_data[1] + scaled_data[2] + scaled_data[3];
-    output_data = (sum > 0)? (sum < 8'b0111_1111 ? sum[7:0]: 8'b0111_1111): 8'b0; // Apply ReLU
+    output_data = (sum[10])? 8'b0 : (sum < 8'b0111_1111 ? sum[7:0]: 8'b0111_1111); // Apply ReLU
 end
 endmodule

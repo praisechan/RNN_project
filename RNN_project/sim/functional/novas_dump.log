@@ -84,7 +84,7 @@ VCS compile option:
  option[0]: ./simv
  option[1]: -reportstats
  option[2]: -l
- option[3]: ./logs/sim.log.1102_00:26:21
+ option[3]: ./logs/sim.log.1102_12:20:51
  option[4]: /tool/Program/synopsys/vcs_vR-2020.12-SP1/linux64/bin/vcs1
  option[5]: -Mcc=gcc
  option[6]: -Mcplusplus=g++
@@ -104,7 +104,7 @@ VCS compile option:
  option[20]: -Mcsrc=
  option[21]: -Msyslibs=/tool/Program/synopsys/verdi_vR-2020.12-SP1/share/PLI/VCS/LINUX64/pli.a -ldl 
  option[22]: -l
- option[23]: logs/compile.log.1102_00:26:20
+ option[23]: logs/compile.log.1102_12:20:49
  option[24]: -V
  option[25]: -lca
  option[26]: -kdb
@@ -170,7 +170,7 @@ QS_PATH=/tool/Program/mentor/QuestaSim-2020.3_2/linux_x86_64
 GSETTINGS_SCHEMA_DIR_CONDA_BACKUP=
 CDS_LOAD_ENV=addCWD
 PPW_HOME=/tool/Program/synopsys/ppower_vS-2021.06-SP5
-WINDOWID=37748739
+WINDOWID=37750275
 CDS_HOME=/tool/Program/cadence/IC618
 ZSH=/home/juchan.lee/.oh-my-zsh
 DVT_HOME=/tool/Program/amiq/dvt_eclipse
@@ -246,10 +246,10 @@ Runtime command line arguments:
 argv[0]=./simv
 argv[1]=-reportstats
 argv[2]=-l
-argv[3]=./logs/sim.log.1102_00:26:21
+argv[3]=./logs/sim.log.1102_12:20:51
 249 profile - 100
-          CPU/Mem usage: 0.020 sys,  0.240 user,  232.08M mem
-250 Elapsed time:    0:00:01    Sat Nov  2 00:26:22 2024
+          CPU/Mem usage: 0.030 sys,  0.260 user,  232.08M mem
+250 Elapsed time:    0:00:00    Sat Nov  2 12:20:51 2024
 251 pliAppInit
 252 [SC]Init: MemoryConsumed=0.00MB ElapsedTime=0hour 0min. 0sec.
 253 FSDB_GATE is set.
@@ -268,7 +268,7 @@ argv[3]=./logs/sim.log.1102_00:26:21
 266 [spi_vcs_vd_ppi_create_root]: no upf option
 267 FSDB dumper cannot dump UPF related power signal ($power_tree): no ppiPowerNetwork.
 268 compile option from '/home/juchan.lee/RNN/RNN_project/sim/functional/simv.daidir/vcs_rebuild'.
-269   "vcs '-V' '-lca' '-kdb' '-sverilog' '-full64' '-debug_access+all' '-l' 'logs/compile.log.1102_00:26:20' '-timescale=1ns/1ps' '+incdir+../../RTL/TOP/' '-y' '/tool/Program/synopsys/syn_vS-2021.06-SP5-2/dw/sim_ver' '+delay_mode_zero' '+libext+.v+' '+define+FUNCTIONAL+' '-f' './script/run_TOP.f' 2>&1"
+269   "vcs '-V' '-lca' '-kdb' '-sverilog' '-full64' '-debug_access+all' '-l' 'logs/compile.log.1102_12:20:49' '-timescale=1ns/1ps' '+incdir+../../RTL/TOP/' '-y' '/tool/Program/synopsys/syn_vS-2021.06-SP5-2/dw/sim_ver' '+delay_mode_zero' '+libext+.v+' '+define+FUNCTIONAL+' '-f' './script/run_TOP.f' 2>&1"
 270 DVDI_is_vir_unload_enabled is enable
 271 FSDB_VCS_ENABLE_NATIVE_VC is enable
 272 sps_call_fsdbDumpvars_vd_main at 0 : ../../tb/tb_TOP.sv(116)
@@ -280,46 +280,46 @@ argv[3]=./logs/sim.log.1102_00:26:21
 278 *Verdi* : Enable +all, +parameter and +functions dumping.
 279 *Verdi* : End of traversing.
 280 pliAppHDL_DumpVarComplete traverse var: profile - 
-          CPU/Mem usage: 0.030 sys,  0.240 user,  331.73M mem
-                   incr: 0.000 sys,  0.000 user,  7.94M mem
-                   accu: 0.000 sys,  0.000 user,  7.94M mem
-              accu incr: 0.000 sys,  0.000 user,  7.94M mem
+          CPU/Mem usage: 0.040 sys,  0.270 user,  331.73M mem
+                   incr: 0.010 sys,  0.000 user,  7.94M mem
+                   accu: 0.010 sys,  0.000 user,  7.94M mem
+              accu incr: 0.010 sys,  0.000 user,  7.94M mem
 
           Count usage: 412 var,  274 idcode,  119 callback
                  incr: 412 var,  274 idcode,  119 callback
                  accu: 412 var,  274 idcode,  119 callback
             accu incr: 412 var,  274 idcode,  119 callback
-281 Elapsed time:    0:00:01    Sat Nov  2 00:26:22 2024
+281 Elapsed time:    0:00:00    Sat Nov  2 12:20:51 2024
 282 pliAppHDL_DumpVarComplete: profile - 
-          CPU/Mem usage: 0.030 sys,  0.240 user,  332.78M mem
+          CPU/Mem usage: 0.040 sys,  0.270 user,  332.78M mem
                    incr: 0.000 sys,  0.000 user,  1.05M mem
-                   accu: 0.000 sys,  0.000 user,  8.99M mem
+                   accu: 0.010 sys,  0.000 user,  8.99M mem
               accu incr: 0.000 sys,  0.000 user,  1.05M mem
 
           Count usage: 412 var,  274 idcode,  119 callback
                  incr: 0 var,  0 idcode,  0 callback
                  accu: 412 var,  274 idcode,  119 callback
             accu incr: 0 var,  0 idcode,  0 callback
-283 Elapsed time:    0:00:01    Sat Nov  2 00:26:22 2024
+283 Elapsed time:    0:00:00    Sat Nov  2 12:20:51 2024
 284 sps_call_fsdbDumpFinish_vd_main at 5486000 : ../../tb/tb_TOP.sv(133)
 285 Begin FSDB profile info:
-286 FSDB Writer : bc1(2032) bcn(7456) mtf/stf(0/0)
-FSDB Writer elapsed time : flush(0.016683) io wait(0.000000) theadpool wait(0.000000)
+286 FSDB Writer : bc1(2012) bcn(7519) mtf/stf(0/0)
+FSDB Writer elapsed time : flush(0.015613) io wait(0.000000) theadpool wait(0.000000)
 FSDB Writer cpu time : MT Compression : 0
 287 End FSDB profile info
-288 FSDB closed. Name: ./reports/tb_TOP.fsdb Size: 15076
+288 FSDB closed. Name: ./reports/tb_TOP.fsdb Size: 14937
 289 *Verdi* : Close all FSDB Files at 5,486,000 ps.
 290 End of simulation at 5486000
 291 Memory usage: 334.393 M
-292 Elapsed time:    0:00:01    Sat Nov  2 00:26:22 2024
+292 Elapsed time:    0:00:01    Sat Nov  2 12:20:52 2024
 293 Parallel profile     - ProducerThread:1 ConsumerThread:1 Buffer:64MB
-294                      - BlockUsed:1 Acquire:10438 BufferUsed:125872
+294                      - BlockUsed:1 Acquire:10490 BufferUsed:123836
 295                      - Flush:4 Expand:0 ProducerWait:0 ConsumerWait:0
-296                      - MainProducerTime:0.291976867 TotalConsumerTime:0.000000000
-297                      - ElapsedTime:0.176204000
-298 Producer   0 profile - BlockUsed:1 Acquire:10438 BufferUsed:125872
+296                      - MainProducerTime:0.323690986 TotalConsumerTime:0.000000000
+297                      - ElapsedTime:0.182787000
+298 Producer   0 profile - BlockUsed:1 Acquire:10490 BufferUsed:123836
 299 Consumer   0 profile - Affinity:-1 CPUTime:0.000000000 LifeTime:0.000000000 (-nan%)
-300                      - BlockUsed:1 Acquire:10438 BufferUsed:125872
+300                      - BlockUsed:1 Acquire:10490 BufferUsed:123836
 301 SimExit
-302 Elapsed time:    0:00:01    Sat Nov  2 00:26:22 2024
+302 Elapsed time:    0:00:01    Sat Nov  2 12:20:52 2024
 303 Sim process exit

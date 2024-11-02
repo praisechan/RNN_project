@@ -40,7 +40,7 @@
 -timescale=1ns/1ps
 -y
 /tool/Program/synopsys/vcs_vR-2020.12-SP1/linux64/bin/vcs1
-logs/compile.log.1102_00:26:20
+logs/compile.log.1102_12:20:49
 /tool/Program/synopsys/verdi_vR-2020.12-SP1/share/PLI/VCS/LINUX64/verdi.tab
 /tool/Program/synopsys/syn_vS-2021.06-SP5-2/dw/sim_ver
 ./script/run_TOP.f
@@ -63,7 +63,7 @@ VERDI_HOME=/tool/Program/synopsys/verdi_vR-2020.12-SP1
 VC_HOME=/tool/Program/synopsys/vcs_vR-2020.12-SP1
 VCS_MX_HOME_INTERNAL=1
 VCS_MODE_FLAG=64
-VCS_LOG_FILE=logs/compile.log.1102_00:26:20
+VCS_LOG_FILE=logs/compile.log.1102_12:20:49
 VCS_LCAMSG_PRINT_OFF=1
 VCS_HOME=/tool/Program/synopsys/vcs_vR-2020.12-SP1
 VCS_DEPTH=0
@@ -127,7 +127,7 @@ CDS_HOME618=/tool/Program/cadence/IC618
 7
 1730472544 ../../tb/tb_TOP.sv
 1730460360 ../../RTL/TOP/RECBUF.sv
-1730474773 ../../RTL/TOP/NEURON.sv
+1730517641 ../../RTL/TOP/NEURON.sv
 1730460360 ../../RTL/TOP/RNN.sv
 1730460359 ./script/run_TOP.f
 1614702492 /tool/Program/synopsys/verdi_vR-2020.12-SP1/share/PLI/VCS/LINUX64/verdi.tab
@@ -137,5 +137,5 @@ CDS_HOME618=/tool/Program/cadence/IC618
 1614745576 /tool/Program/synopsys/vcs_vR-2020.12-SP1/linux64/lib/liberrorinf.so
 1614745306 /tool/Program/synopsys/vcs_vR-2020.12-SP1/linux64/lib/libsnpsmalloc.so
 1614745567 /tool/Program/synopsys/vcs_vR-2020.12-SP1/linux64/lib/libvfs.so
-1730474781 simv.daidir
+1730517651 simv.daidir
 -1 partitionlib

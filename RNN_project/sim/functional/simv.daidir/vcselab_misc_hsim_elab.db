@@ -1,5 +1,5 @@
 psSimBaseName                      	simv
-psLogFileName                      	logs/compile.log.1102_00:26:20
+psLogFileName                      	logs/compile.log.1102_12:20:49
 pDaiDir                            	/home/juchan.lee/RNN/RNN_project/sim/functional/simv.daidir
 destPath                           	csrc/
 fSharedMaster                      	0

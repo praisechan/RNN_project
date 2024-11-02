@@ -2,4 +2,4 @@ Command Line: /tool/Program/synopsys/vcs_vR-2020.12-SP1/linux64/bin/elabcom -log
 uname(Linux ferrari 3.10.0-1160.41.1.el7.x86_64 #1 SMP Tue Aug 31 14:52:47 UTC 2021 x86_64)
 [INFO] error/warning message 'C00388' has been suppressed.
 [INFO] error/warning message 'C00389' has been suppressed.
-au time 0.075251 0.006778 0.010166 delta 92184576 92184576 total 199766016 199766016
+au time 0.075733 0.009837 0.005693 delta 92184576 92184576 total 199766016 199766016
